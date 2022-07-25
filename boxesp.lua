@@ -1,5 +1,3 @@
----Created By 0x83
-
 local lplr = game.Players.LocalPlayer
 local camera = game:GetService("Workspace").CurrentCamera
 local CurrentCamera = workspace.CurrentCamera
@@ -119,5 +117,3 @@ game.Players.PlayerAdded:Connect(function(v)
     end
     coroutine.wrap(boxesp)()
 end)
-
----Created By 0x83
